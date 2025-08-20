@@ -6,7 +6,7 @@ import Footer from "../../components/Footer/Footer";
 const Singleproductpage = ({ cartItems, addToCart, products, config }) => {
   return (
     <>
-      <Header cartItems={cartItems} />
+      <Header cartItems={cartItems} config={config} />
       <Singleproduct addToCart={addToCart} products={products} />
       <Footer config={config} />
     </>

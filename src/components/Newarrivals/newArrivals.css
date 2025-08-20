@@ -21,7 +21,7 @@
 }
 
 .newarrivals span {
-  color: #e94560;
+  color: var(--color);
   font-size: 15px;
   font-weight: 500;
 }

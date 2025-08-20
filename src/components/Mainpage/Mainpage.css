@@ -129,12 +129,12 @@
 .product .price {
   display: flex;
   justify-content: space-between;
-  color: #e94560;
+  color: var(--color);
 }
 
 .product button {
   background: none;
-  color: #e94560;
+  color: var(--color);
   font-size: 20px;
   border: 1px solid rgb(3 0 71/9%);
   width: 35px;
@@ -145,7 +145,7 @@
 
 .product button:hover {
   cursor: pointer;
-  background: #e94560;
+  background: var(--color);
   color: #fff;
 }
 
@@ -206,7 +206,7 @@
 
 .control-btn .next:hover,
 .control-btn .prev:hover {
-  background: #e94560;
+  background: var(--color);
   color: #fff;
   cursor: pointer;
 }

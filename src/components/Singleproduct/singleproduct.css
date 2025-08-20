@@ -35,7 +35,7 @@
 .gallery-item:hover {
   cursor: pointer;
   box-sizing: border-box;
-  border: #e94560 solid 2px;
+  border: var(--color) solid 2px;
   opacity: 80%;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .single-discount {
-  color: #e94560;
+  color: var(--color);
   background-color: #eee;
   padding: 5px 10px;
   font-size: 1rem;
@@ -112,7 +112,7 @@
 
 .quantity i {
   font-size: 1rem;
-  color: #e94560;
+  color: var(--color);
 }
 
 .quantity button:hover {
@@ -133,4 +133,36 @@
   text-align: center;
   padding: 0;
   background: transparent;
+}
+
+@media (max-width: 768px) {
+  .single-product {
+    /* Apila las columnas verticalmente en móvil */
+    flex-direction: column;
+  }
+
+  .single-img, .single-info {
+    width: 100%; /* Ambas columnas ocupan todo el ancho */
+  }
+
+  .heading-prod {
+    font-size: 2rem;
+  }
+
+  .add-to-cart-button-and-quantity {
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .quantity {
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    width: 100%;
+  }
+
+  .cart-add-btn {
+    width: 100%;
+    justify-content: center;
+  }
 }

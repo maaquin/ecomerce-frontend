@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+:root {
+  --color: #e94560;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -123,19 +127,30 @@ li {
 /* slider button of visit collecitons */
 
 .btn-primary {
-  background-color: #e94560;
-  padding: 13px 40px;
-  font-weight: bold;
-  color: #fff;
-  border-radius: 5px;
-  margin-left: 1px;
-  cursor: pointer;
+    margin-top: 1rem;
+    height: fit-content;
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color);
+    gap: 10px;
+    background-color: #eee;
+    transition: all .3s;
+    border-radius: 15px;
+    padding: 1rem 3rem;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: var(--color);
+    box-shadow: 0px 0px 10px var(--color);
+    cursor: pointer;
 }
 
 /* Flash Deals CSS */
 
 .heading i {
-  color: #e94560;
+  color: var(--color);
   /* margin: 10px; */
   font-size: 2rem;
 }
@@ -149,7 +164,7 @@ li {
   position: absolute;
   top: 0;
   left: 0;
-  background: #e94560;
+  background: var(--color);
   padding: 3px 10px;
   font-size: 12px;
   border-radius: 50px;
@@ -247,7 +262,7 @@ li {
 }
 
 .link-hover:hover {
-  color: #e94560;
+  color: var(--color);
 }
 
 .heading-right {
@@ -258,7 +273,7 @@ li {
 }
 
 .heading-right:hover {
-  color: #e94560;
+  color: var(--color);
 }
 
 .heading-view-all {
@@ -286,7 +301,7 @@ li {
   padding: 1rem 3rem;
   font-size: 1rem;
   font-weight: 600;
-  color: #e94560;
+  color: var(--color);
   gap: 10px;
   background-color: #eee;
   transition: all .3s;
@@ -294,8 +309,8 @@ li {
 
 .cart-add-btn:hover {
   color: white;
-  background-color: #e94560;
-  box-shadow: 0px 0px 10px #e94560;
+  background-color: var(--color);
+  box-shadow: 0px 0px 10px var(--color);
   cursor: pointer;
 }
 
@@ -318,12 +333,17 @@ li {
   }
 
   .btn-primary {
-    background-color: #e94560;
-    padding: 10px 20px;
-    font-weight: bold;
+    margin-top: 1rem;
+    height: fit-content;
+    width: fit-content;
+    font-size: .8rem;
+    font-weight: 600;
     color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
+    gap: 10px;
+    background-color: var(--color);
+    transition: all .3s;
+    border-radius: 15px;
+    padding: 1rem 2rem;
   }
 
   .shop-container {
@@ -342,7 +362,7 @@ li {
   }
 
   .grid2 {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .footer-container {
@@ -482,7 +502,7 @@ li {
   
   /* El borde de color es la parte que "gira" */
   /* Puedes cambiar este color para que coincida con tu marca */
-  border-top-color: #e94560; /* Un color rosado/rojo bonito */
+  border-top-color: var(--color); /* Un color rosado/rojo bonito */
   
   /* Lo convierte en un círculo perfecto */
   border-radius: 50%;

@@ -86,7 +86,7 @@
     width: fit-content;
     font-size: 1rem;
     font-weight: 600;
-    color: #e94560;
+    color: var(--color);
     gap: 10px;
     background-color: #eee;
     transition: all .3s;
@@ -96,8 +96,8 @@
 
 .cliente-form .checkout:hover {
     color: white;
-    background-color: #e94560;
-    box-shadow: 0px 0px 10px #e94560;
+    background-color: var(--color);
+    box-shadow: 0px 0px 10px var(--color);
     cursor: pointer;
 }
 
