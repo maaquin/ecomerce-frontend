@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { LoadingSpinner } from "../../components/LoadingSpinner";
-import { Content } from "../../components/dashboard/Content";
+import { Content } from "../../components/Dashboard/Content";
 import { useNavigate } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 import {
