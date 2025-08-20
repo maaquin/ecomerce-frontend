@@ -1,0 +1,136 @@
+.single-product {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.single-img {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 2% 10%;
+  gap: 50px;
+}
+
+.principal-img img {
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 10px 10px 15px #ccc;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.gallery-item {
+  border-radius: 10px;
+  border: solid 2px #ccc;
+  overflow: hidden;
+}
+
+.gallery-item:hover {
+  cursor: pointer;
+  box-sizing: border-box;
+  border: #e94560 solid 2px;
+  opacity: 80%;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.single-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 40px;
+  gap: 20px;
+}
+
+.single-product-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.heading-prod {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.new-price {
+  font-size: 2rem;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+
+.single-discount {
+  color: #e94560;
+  background-color: #eee;
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.original-price {
+  color: #aaa;
+  text-decoration: line-through;
+}
+
+.add-to-cart-button-and-quantity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.quantity {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0 20px;
+  font-size: 2rem;
+  background-color: #eee;
+  border-radius: 15px;
+}
+
+.quantity i {
+  font-size: 1rem;
+  color: #e94560;
+}
+
+.quantity button:hover {
+  cursor: pointer;
+}
+
+.quantity-input::-webkit-inner-spin-button,
+.quantity-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.quantity-input {
+  -moz-appearance: textfield;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 2rem;
+  text-align: center;
+  padding: 0;
+  background: transparent;
+}

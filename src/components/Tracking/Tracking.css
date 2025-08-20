@@ -1,0 +1,160 @@
+.tracking-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tracking-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.tracking-subtitle {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.tracking-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-direction: row;
+}
+
+.tracking-input {
+    flex: 1;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+.tracking-button {
+    height: fit-content;
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e94560;
+    gap: 10px;
+    background-color: #eee;
+    transition: all .3s;
+    border-radius: 15px;
+    padding: 1rem 3rem;
+}
+
+.tracking-button:hover {
+    color: white;
+    background-color: #e94560;
+    box-shadow: 0px 0px 10px #e94560;
+    cursor: pointer;
+}
+
+.tracking-result {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.result-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.result-placeholder {
+    font-size: 1rem;
+    color: #888;
+    font-style: italic;
+}
+
+.bill {
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.bill section {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.bill section:last-child {
+    border-bottom: none;
+}
+
+.bill h2 {
+    font-size: 1.1rem;
+    color: #e94560;
+    margin-bottom: 8px;
+}
+
+.bill p {
+    margin: 5px 0;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.bill strong {
+    color: #000;
+}
+
+.bill table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.bill th,
+.bill td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.bill th {
+    background-color: #e94560;
+    color: #fff;
+    font-weight: 600;
+}
+
+.bill tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.bill section:nth-child(2) p strong {
+    font-size: 1.3rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .tracking-form {
+        flex-direction: column;
+    }
+
+    .tracking-input{
+        width: 100%;
+    }
+
+    .tracking-container {
+        max-width: 350px;
+    }
+
+    .bill table {
+        font-size: .6rem;
+    }
+}
