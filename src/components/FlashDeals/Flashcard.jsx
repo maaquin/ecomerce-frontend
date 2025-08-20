@@ -41,6 +41,7 @@ const Flashcard = ({ addToCart, data }) => {
     slidesToScroll: 1,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    arrows: data.length > 1,
     responsive: [
       {
         breakpoint: 1440,
