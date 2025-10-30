@@ -1,49 +1,60 @@
-# 🛒 E-Commerce en React
+# 🛒 E-Commerce — Plataforma web completa con React, Node.js y SQL
 
-Este proyecto es una aplicación **E-Commerce** desarrollada con **React**, que incluye un **panel administrativo**, un **servidor en Node.js** y una **base de datos en SQL**.  
-El sistema permite la gestión de productos, usuarios y compras, además de enviar notificaciones por correo electrónico tanto al comprador como al administrador.  
+**E-Commerce** es una aplicación web de compras en línea que integra un **panel administrativo, un servidor en Node.js, y una base de datos SQL.**
+Permite la gestión de productos, usuarios y pedidos, además de enviar **notificaciones automáticas por correo** tanto al comprador como al administrador.
 
----
-
-## 🚀 Deployment
-🔗 URL del despliegue: [pendiente de agregar]
+Un proyecto diseñado para aprender y aplicar buenas prácticas de desarrollo **Full Stack**, centrado en la experiencia del usuario y la administración eficiente del sistema.
 
 ---
 
-## ⚙️ Funcionalidades principales
-- Catálogo de productos con imágenes y descripciones.
-- Carrito de compras dinámico.
-- Validación de correo electrónico para usuarios.
-- Notificaciones por correo:
-  - Al administrador con los detalles de la compra.
-  - Al comprador con la confirmación y validación.
-- Panel administrativo para gestionar productos y pedidos.
-- Integración de **Google reCAPTCHA** para mayor seguridad.
-- Estilos dinámicos con **styled-components**.
+## 📖 Descripción
+
+El sistema está dividido en dos áreas principales:
+- **Tienda pública:** permite a los usuarios navegar por el catálogo de productos, añadir ítems al carrito, realizar compras y recibir confirmaciones por correo electrónico.
+- **Panel administrativo:** interfaz privada para agregar, modificar o eliminar productos, además de revisar pedidos y gestionar usuarios.
+El enfoque fue construir una aplicación **segura, escalable y moderna**, utilizando React en el frontend, Node.js en el backend y SQL como base de datos relacional. 
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## ⚙️ Tecnologías utilizadas
 
-### Frontend
-- **React** `^18.3.1`
-- **React DOM** `^18.3.1`
-- **React Router DOM** `^7.0.1`
-- **Axios** `^1.7.8` (para consumo de APIs)
-- **React Google reCAPTCHA** `^3.1.0`
-- **React Hot Toast** `^2.4.1` (notificaciones)
-- **React Icons** `^5.3.0`
-- **React Slick** `^0.30.2` + **Slick Carousel** `^1.8.1` (carruseles)
-- **Styled Components** `^6.1.13` (estilos)
-- **Web Vitals** `^4.2.4`
-
-### Backend
-- **Node.js** con Express.
-- Sistema de envío de **correos electrónicos** para validación y notificaciones.
-
-### Base de Datos
-- **SQL** (relacional).
+| Área | Tecnologías |
+|------|-------------|
+| Frontend | React 18, React Router DOM 7, Axios, React Hot Toast, React Icons |
+| Seguridad y validación | Google reCAPTCHA |
+| Backend | Node.js, Express |
+| Base de datos | SQL (relacional) |
+| Notificaciones | Sistema de envío de correos electrónicos |
 
 ---
 
-## 📂 Estructura del proyecto
+## 🧩 Funcionalidades principales
+
+🛍️ **Catálogo dinámico** con imágenes, precios y descripciones.
+🧾 **Carrito de compras** interactivo y persistente.
+📧 **Validación y notificación por correo electrónico:**
+- Al comprador, con confirmación y detalles del pedido.
+- Al administrador, con registro de venta y datos del comprador.
+⚙️ **Panel administrativo:**
+- Gestión de productos, usuarios y pedidos.
+- Actualización visual inmediata.
+🧠 **Seguridad reforzada** con integración de **Google reCAPTCHA**.
+🎨 **Diseño responsivo y dinámico** con **Styled Components**.
+
+---
+
+## 🌐 Despliegue
+- Enlace al proyecto desplegado: [e-commerce](https://ecomerce-frontend-azure.vercel.app)
+
+---
+
+## ✨ Notas
+- Este proyecto fue desarrollado con fines **educativos y de práctica profesional**, para reforzar conocimientos en desarrollo Full Stack (React + Node.js + SQL).
+- Incluye integración completa entre **frontend, backend y base de datos**, además de **notificaciones automáticas por correo**.
+- Para explorar más a fondo el back-end, puede visitar su [repositorio](https://github.com/maaquin/ecomerce-backend.git).
+- Para explorar más el panel administrativo, puede contactarme, ya que por temas de seguridad es una aplicación de escritorio local desarrollada con Electron.
+
+---
+
+## 📌 Autor
+- Luciano Maquin – [@Maaquin](https://github.com/maaquin)
