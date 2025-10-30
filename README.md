@@ -30,16 +30,16 @@ El enfoque fue construir una aplicación **segura, escalable y moderna**, utiliz
 
 ## 🧩 Funcionalidades principales
 
-🛍️ **Catálogo dinámico** con imágenes, precios y descripciones.
-🧾 **Carrito de compras** interactivo y persistente.
-📧 **Validación y notificación por correo electrónico:**
-- Al comprador, con confirmación y detalles del pedido.
-- Al administrador, con registro de venta y datos del comprador.
-⚙️ **Panel administrativo:**
-- Gestión de productos, usuarios y pedidos.
-- Actualización visual inmediata.
-🧠 **Seguridad reforzada** con integración de **Google reCAPTCHA**.
-🎨 **Diseño responsivo y dinámico** con **Styled Components**.
+- 🛍️ **Catálogo dinámico** con imágenes, precios y descripciones.
+- 🧾 **Carrito de compras** interactivo y persistente.
+- 📧 **Validación y notificación por correo electrónico:**
+  - Al comprador, con confirmación y detalles del pedido.
+  - Al administrador, con registro de venta y datos del comprador.
+- ⚙️ **Panel administrativo:**
+  - Gestión de productos, usuarios y pedidos.
+  - Actualización visual inmediata.
+- 🧠 **Seguridad reforzada** con integración de **Google reCAPTCHA**.
+- 🎨 **Diseño responsivo y dinámico** con **Styled Components**.
 
 ---
 
